@@ -8,9 +8,9 @@ if phrase == "I LOVE YOU GRANDMA!"
 # If you shout, she can hear you (or at least she thinks so) 
 # and yells back
 elsif phrase == phrase.downcase
-  return "HUH?! SPEAK UP SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 elsif phrase == phrase.downcase
-  return "HUH?! SPEAK UP SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 elsif phrase == phrase.upcase
   return "NO, NOT SINCE 1938!"
 # NO, NOT SINCE 1938!
