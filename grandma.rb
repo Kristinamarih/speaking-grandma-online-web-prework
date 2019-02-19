@@ -9,7 +9,7 @@ if phrase == "I LOVE YOU GRANDMA!"
 # and yells back
 elsif phrase == phrase.downcase 
   return "HUH?! SPEAK UP, SONNY!"
-elsif phrase == phrase.downcase
+elsif phrase == phrase.downcase || phrase.capitalize
   return "HUH?! SPEAK UP, SONNY!"
 elsif phrase == phrase.upcase && phrase != "I LOVE YOU GRANDMA!"
   return "NO, NOT SINCE 1938!"
